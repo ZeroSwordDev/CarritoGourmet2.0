@@ -11,12 +11,7 @@ const data = [
   {
     id: 2,
     title: "we deliver your order wherever you are in NY",
-    image: "/slide2.png",
-  },
-  {
-    id: 3,
-    title: "the best pizza to share with your family",
-    image: "/slide3.jpg",
+    image: "/slidercarrito2.webp",
   },
 ];
 
