@@ -6,7 +6,7 @@ const data = [
   {
     id: 1,
     title: "always fresh & always crispy & always hot",
-    image: "/slide1.png",
+    image: "/sliderCarrito.webp",
   },
   {
     id: 2,
@@ -35,7 +35,6 @@ const Slider = () => {
   return (
     <div className="flex flex-col h-[calc(100vh-6rem)] md:h-[calc(100vh-9rem)] lg:flex-row bg-fuchsia-50 relative">
       {/* TEXT CONTAINER */}
-      {/* IMAGE CONTAINER */}
       <div className="w-full flex-1 ">
         <Image
           src={data[currentSlide].image}
@@ -43,6 +42,7 @@ const Slider = () => {
           fill
           className="object-cover"
         />
+        {/* IMAGE CONTAINER */}
         <div className="flex flex-col items-center justify-center bg-black/30 w-full h-full absolute">
           <h1 className="text-5xl text-white text-center uppercase p-4 md:p-10 md:text-6xl xl:text-7xl">
             {data[currentSlide].title}
