@@ -359,7 +359,7 @@ type Events = {
   title: string;
   fullDesc?: string;
   desc?: string;
-  beneficts?: object[];
+  beneficts?: { id: number; desc: string }[];
   img?: string;
   color: string;
 }[];
