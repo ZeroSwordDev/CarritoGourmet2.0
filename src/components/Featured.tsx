@@ -5,10 +5,12 @@ import React from "react";
 
 const Featured = () => {
   return (
+
     <div className="w-full overflow-x-scroll text-gray-500">
       {/* WRAPPER */}
       <div className="w-max flex">
         {events.map((item) => (
+
           <div
             key={item.id}
             className="w-screen h-[60vh] flex flex-col items-center justify-around p-4 hover:bg-fuchsia-50 transition-all duration-300 md:w-[50vw] xl:w-[33vw] xl:h-[90vh]"
@@ -25,9 +27,11 @@ const Featured = () => {
                 {item.title}
               </h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
+
               <Link href={`/events/${item.slug}`} className="bg-red-500 text-white p-2 rounded-md">
                 Ver eventos
               </Link>
+
             </div>
           </div>
         ))}
