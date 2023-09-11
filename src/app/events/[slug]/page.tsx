@@ -4,16 +4,16 @@ import Link from "next/link";
 
 const EventPage = () => {
   const individuals =
-    events.find((event) => event.slug === "individuals") || {};
+    events.find((event) => event.slug === "individuals") 
   console.log(individuals);
   const corporatives =
-    events.find((event) => event.slug === "corporatives") || {};
+    events.find((event) => event.slug === "corporatives") ;
   // como traer el parametro de la url?
   return (
     <div className="w-full h-full flex text-red-500 justify-center items-center">
       <div className="w-full h-full flex items-center justify-center">
         {individuals && (
-          <div className="w-full border-r-2 border-b-2 border-red-500 w-full lg:w-2/3 p-4 flex flex-col justify-between group odd:bg-fuchsia-50">
+          <div className="w-full border-r-2 border-b-2 border-red-500 lg:w-2/3 p-4 flex flex-col justify-between group odd:bg-fuchsia-50">
             {/* IMAGE CONTAINER */}
             {individuals.img && (
               <div className="self-center">
