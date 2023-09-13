@@ -29,6 +29,11 @@ const Featured = () => {
               </h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
 
+              <button className="bg-red-500 text-white p-2 rounded-md">
+                <Link href={`/${item.href}`}>Ver ahora</Link>
+              </button>
+
+
               <Link href={`/${item.slug}`} className="bg-red-500 text-white p-2 rounded-md">
                 Ver eventos
               </Link>

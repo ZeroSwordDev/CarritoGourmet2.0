@@ -1,15 +1,12 @@
 import SucursalesView from "@/components/SucursalesView";
-import {
-  CloudArrowUpIcon,
-  LockClosedIcon,
-  ServerIcon,
-} from "@heroicons/react/20/solid";
+import { sucursales } from "@/data";
 
 export default function Example() {
   return (
     <>
-      <SucursalesView />;
-      <SucursalesView />;
+      {sucursales?.map((item) => (
+        <SucursalesView key={item.id} sucursales={item} />
+      ))}
     </>
   );
 }
