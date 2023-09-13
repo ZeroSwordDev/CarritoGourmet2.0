@@ -352,6 +352,85 @@ export const singleProduct: Product = {
   ],
 };
 
+
+type Events = {
+  id: number;
+  slug: string;
+  title: string;
+  fullDesc?: string;
+  desc?: string;
+  beneficts?: { id: number; desc: string }[];
+  img?: string;
+  color: string;
+}[];
+
+export const events: Events = [
+  {
+    id: 1,
+    slug: "individuals",
+    title: "Eventos particulares",
+    desc: "Lleva el carrito hasta la puerta de tu casa y disfruta sin preocupaciones",
+    fullDesc:
+      "Con el Carrito Gourmet, podrás disfrutar de una deliciosa experiencia sin preocupaciones en la comodidad de tu hogar. Nos encargamos de todo y cocinamos por ti, para que tú y tus invitados puedan disfrutar de la fiesta sin tener que trabajar para ello. ¿QUE EVENTOS REALIZAMOS? Cumpleaños, reuniones, eventos infantiles, matrimonios, bautizos, baby shower, paseos de curso, eventos para empresa hasta 3000 personas o cualquier tipo de celebración. ",
+    beneficts: [
+      {
+        id: 1,
+        desc: "No pierdes tiempo haciendo compras en supermercados, atendiendo a tus invitados ni lavando platos.",
+      },
+      {
+        id: 2,
+        desc: "Nosotros cocinamos tu disfrutas sin preocupaciones.",
+      },
+      {
+        id: 3,
+        desc: "Preparamos deliciosos productos personalizados según tu preferencia y la de tus invitados.",
+      },
+      {
+        id: 4,
+        desc: "Llegamos a cualquier parte donde sea tu evento.",
+      },
+      {
+        id: 5,
+        desc: "Atención exclusiva a cargo de un equipo con más de 10 años de experiencia.",
+      },
+    ],
+    img: "/temporary/m1.png",
+    color: "white",
+  },
+  {
+    id: 2,
+    slug: "corporatives",
+    title: "Eventos corporativos",
+    desc: "Tenemos todos los servicios para la producción de tu evento corporativo",
+    fullDesc:
+      "Ofrecemos soluciones creativas y personalizadas para empresas de cualquier tamaño e industria. Nuestro propósito es realizar eventos inolvidables que satisfagan las necesidades y objetivos de cada cliente, desde pequeñas reuniones hasta grandes convocatorias para fechas especiales. Incluyendo, servicios de catering en carritos de comida con capacidad para la entrega desde 50 hasta 4000 productos diarios, Coffe break, audiovisual, producción de videos y fotografía, juegos inflables y servicios de entretenimiento para fomentar la participación de los asistentes. Trabajaremos en estrecha colaboración para garantizar que cada detalle esté perfectamente planificado y coordinado. Cabe mencionar que cumplimos con los más altos estándares de inocuidad alimentaria y seguimos rigurosamente los protocolos establecidos por la seremi de salud para garantizar la seguridad de nuestros clientes. En nuestra productora de eventos, nos enfocamos en ofrecer una experiencia única y memorable que combinen creatividad, tecnología y estrategia para generar un impacto significativo. ¿QUE EVENTOS REALIZAMOS? Coctels, desayunos, pequeñas reuniones de oficina, fechas especiales y cel, ceremonias por cumplimiento de metas, lanzamiento de productos y/o capacitaciones, fiestas de navidad para tus colaboradores y sus familias.",
+    beneficts: [
+      {
+        id: 1,
+        desc: "Contamos con un equipo con más de 10 años de experiencia especializado en la planificación, diseño y ejecución de eventos.",
+      },
+      {
+        id: 2,
+        desc: "Te asesoramos y acompañamos en todo el proceso de planificación poniendo a tu disposición toda nuestra experiencia para conseguir el objetivo esperado.",
+      },
+      {
+        id: 3,
+        desc: "Con nosotros podras encontrar todos los servicios en un solo lugar, y gestionaremos por ti la coordinación de cada detalle y facilitaremos todo el proceso.",
+      },
+      {
+        id: 4,
+        desc: "En conjunto elegiremos el mejor lugar para el desarrollo de tu evento. Llegamos a cualquier parte donde sea tu evento.",
+      },
+      {
+        id: 5,
+        desc: "Contamos con altos estándares de seguridad alimentaria con resolución sanitaria que abalan nuestros procesos de manipulación de alimentos.",
+      },
+    ],
+    img: "/temporary/m1.png",
+    color: "white",
+  },
+];
+
 type Menu = {
   id: number;
   slug: string;
@@ -387,3 +466,40 @@ export const menu: Menu = [
     color: "white",
   },
 ];
+
+type HazloEnCasa = {
+  id: number;
+  title: string;
+  slug: string;
+  desc?: string;
+  fullDesc?: string;
+  img?: string;
+  products?: { id: number; title: string; img: string }[];
+};
+
+export const hazloEnCasa: HazloEnCasa = {
+  id: 1,
+  title: "Hazlo en casa",
+  slug: "hazlo-en-casa",
+  desc: "Prepara rápido y fácil en casa.",
+  fullDesc:
+    "Hemos creado para ti una completa línea de productos lista para preparar en casa, donde cocinar es más fácil que nunca. Ya no tienes que realizar extensos y complejos procesos para disfrutar. Ahora podrás hacerlo rápido y fácil en simples pasos.",
+  img: "/temporary/p1.png",
+  products: [
+    {
+      id: 1,
+      title: "Box hamburguesero",
+      img: "/temporary/p1.png",
+    },
+    {
+      id: 2,
+      title: "Carne mechada al vacio",
+      img: "/temporary/p2.png",
+    },
+    {
+      id: 3,
+      title: "Salsas en diferentes formatos ",
+      img: "/temporary/p3.png",
+    },
+  ],
+};
