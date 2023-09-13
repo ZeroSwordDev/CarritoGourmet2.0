@@ -6,6 +6,7 @@ import Link from "next/link";
 import React from "react";
 
 const CategoryPage = () => {
+
   const { category } = useParams();
 
   const swhitchCategory = (category: string): any => {
@@ -26,6 +27,7 @@ const CategoryPage = () => {
         break;
     }
   };
+
 
   return (
     <div className="flex flex-wrap text-red-500">
