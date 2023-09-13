@@ -5,12 +5,12 @@ import React, { useEffect, useState } from "react";
 const data = [
   {
     id: 1,
-    title: "always fresh & always crispy & always hot",
+    title: "Siempre fresca y siempre crujiente y siempre caliente",
     image: "/sliderCarrito.webp",
   },
   {
     id: 2,
-    title: "we deliver your order wherever you are in NY",
+    title: " Entregamos tu pedido dondequiera que estés",
     image: "/slidercarrito2.webp",
   },
 ];
