@@ -1,3 +1,4 @@
+'use client'
 import { hazloEnCasa, events, featuredProducts } from "@/data";
 import Image from "next/image";
 import Link from "next/link";
@@ -28,7 +29,7 @@ const Featured = () => {
               </h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
 
-              <Link href={`/events/${item.slug}`} className="bg-red-500 text-white p-2 rounded-md">
+              <Link href={`/${item.slug}`} className="bg-red-500 text-white p-2 rounded-md">
                 Ver eventos
               </Link>
 

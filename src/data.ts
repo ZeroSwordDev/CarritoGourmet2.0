@@ -394,13 +394,13 @@ export const events: Events = [
         desc: "Atención exclusiva a cargo de un equipo con más de 10 años de experiencia.",
       },
     ],
-    img: "/temporary/m1.png",
+    img: "/Fotocategoriaeventosmasivos.webp",
     color: "white",
   },
   {
     id: 2,
-    slug: "corporatives",
-    title: "Eventos corporativos",
+    slug: "sucursales",
+    title: "Sucursales",
     desc: "Tenemos todos los servicios para la producción de tu evento corporativo",
     fullDesc:
       "Ofrecemos soluciones creativas y personalizadas para empresas de cualquier tamaño e industria. Nuestro propósito es realizar eventos inolvidables que satisfagan las necesidades y objetivos de cada cliente, desde pequeñas reuniones hasta grandes convocatorias para fechas especiales. Incluyendo, servicios de catering en carritos de comida con capacidad para la entrega desde 50 hasta 4000 productos diarios, Coffe break, audiovisual, producción de videos y fotografía, juegos inflables y servicios de entretenimiento para fomentar la participación de los asistentes. Trabajaremos en estrecha colaboración para garantizar que cada detalle esté perfectamente planificado y coordinado. Cabe mencionar que cumplimos con los más altos estándares de inocuidad alimentaria y seguimos rigurosamente los protocolos establecidos por la seremi de salud para garantizar la seguridad de nuestros clientes. En nuestra productora de eventos, nos enfocamos en ofrecer una experiencia única y memorable que combinen creatividad, tecnología y estrategia para generar un impacto significativo. ¿QUE EVENTOS REALIZAMOS? Coctels, desayunos, pequeñas reuniones de oficina, fechas especiales y cel, ceremonias por cumplimiento de metas, lanzamiento de productos y/o capacitaciones, fiestas de navidad para tus colaboradores y sus familias.",
@@ -426,7 +426,7 @@ export const events: Events = [
         desc: "Contamos con altos estándares de seguridad alimentaria con resolución sanitaria que abalan nuestros procesos de manipulación de alimentos.",
       },
     ],
-    img: "/temporary/m1.png",
+    img: "/fotosucursallinares.webp",
     color: "white",
   },
 ];
@@ -484,7 +484,7 @@ export const hazloEnCasa: HazloEnCasa = {
   desc: "Prepara rápido y fácil en casa.",
   fullDesc:
     "Hemos creado para ti una completa línea de productos lista para preparar en casa, donde cocinar es más fácil que nunca. Ya no tienes que realizar extensos y complejos procesos para disfrutar. Ahora podrás hacerlo rápido y fácil en simples pasos.",
-  img: "/temporary/p1.png",
+  img: "/Fotocategoriaeventosmasivos.webp",
   products: [
     {
       id: 1,
