@@ -1,5 +1,6 @@
 import { featuredProducts } from "@/data";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Featured = () => {
@@ -52,7 +53,7 @@ const Featured = () => {
               </h1>
               <p className="p-4 2xl:p-8">{item.desc}</p>
               <button className="bg-red-500 text-white p-2 rounded-md">
-                Ver ahora
+                <Link href={`/${item.href}`}>Ver ahora</Link>
               </button>
             </div>
           </div>
