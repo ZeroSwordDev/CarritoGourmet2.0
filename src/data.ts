@@ -12,14 +12,21 @@ export type Products = Product[];
 
 export const featuredProducts: Products = [
   {
-    id: 1,
+    id: 2,
+    title: "Eventos Produccion aun",
+    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    img: "/Fotocategoriaeventosmasivos.webp",
+    href: "sucursales",
+  },
+  {
+    id: 2,
     title: "Sucursales",
     desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
     img: "/fotosucursallinares.webp",
     href: "sucursales",
   },
   {
-    id: 2,
+    id: 3,
     title: "Hazlo en Casa",
     desc: "Prepara rápido y fácil en casa.",
     img: "/boxhaburgesa.webp",
@@ -226,7 +233,6 @@ export const singleProduct: Product = {
     },
   ],
 };
-
 
 type Events = {
   id: number;
