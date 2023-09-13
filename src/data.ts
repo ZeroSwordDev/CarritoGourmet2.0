@@ -297,7 +297,7 @@ export const sucursales: Sucursales[] = [
   {
     id: 2,
     title: "Region del Maule, Talca",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
+    desc: "",
     img: "/fotosucursaltalca.JPG",
     imgMap: "https://carritogourmet.netlify.app/assets/calle31-dc3e40c9.png",
     color: "black",
