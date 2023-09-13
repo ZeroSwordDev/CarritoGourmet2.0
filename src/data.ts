@@ -12,14 +12,21 @@ export type Products = Product[];
 
 export const featuredProducts: Products = [
   {
-    id: 1,
+    id: 2,
+    title: "Eventos Produccion aun",
+    desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
+    img: "/Fotocategoriaeventosmasivos.webp",
+    href: "sucursales",
+  },
+  {
+    id: 2,
     title: "Sucursales",
     desc: "Ignite your taste buds with a fiery combination of spicy pepperoni, jalapeños, crushed red pepper flakes, and melted mozzarella cheese, delivering a kick with every bite.",
     img: "/fotosucursallinares.webp",
     href: "sucursales",
   },
   {
-    id: 2,
+    id: 3,
     title: "Hazlo en Casa",
     desc: "Prepara rápido y fácil en casa.",
     img: "/boxhaburgesa.webp",
@@ -227,7 +234,6 @@ export const singleProduct: Product = {
   ],
 };
 
-
 type Events = {
   id: number;
   slug: string;
@@ -376,7 +382,7 @@ export const sucursales: Sucursales[] = [
   {
     id: 2,
     title: "Region del Maule, Talca",
-    desc: "Burger Bliss: Juicy patties, bold flavors, and gourmet toppings galore.",
+    desc: "",
     img: "/fotosucursaltalca.JPG",
     imgMap: "https://carritogourmet.netlify.app/assets/calle31-dc3e40c9.png",
     color: "black",
